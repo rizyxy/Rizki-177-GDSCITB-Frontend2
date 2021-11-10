@@ -1,0 +1,18 @@
+.OverviewHeader {
+    font-size: xx-large;
+    text-align: center;
+}
+
+.OverviewContent {
+    margin: 2em;
+}
+
+.OverviewPoster {
+    float: left;
+    margin-right: 1em;
+}
+
+.BackButton:hover {
+    cursor: pointer;
+    color: gray;
+}

@@ -1,0 +1,35 @@
+.Navbar {
+    background-color: black;
+    padding: 1em;
+}
+
+.Navbar ul li {
+    display: inline;
+    padding: 1em;
+}
+
+.Navbar ul li h4 {
+    display: inline;
+    color: white;
+    font-size: x-large;
+}
+
+.Navbar ul li .ActivedHome {
+    color: white;
+}
+
+.Navbar ul li .ActivedWL {
+    color: white;
+}
+
+.Navbar ul li a {
+    cursor: pointer;
+    display: inline;
+    color: gray;
+    text-decoration: none;
+}
+
+.Navbar ul li a:hover {
+    color: white;
+}
+

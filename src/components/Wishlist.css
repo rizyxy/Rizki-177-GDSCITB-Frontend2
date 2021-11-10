@@ -1,0 +1,61 @@
+.Wishlist {
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    padding: 1em;
+
+}
+
+.WishlistContent {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 80%;
+
+}
+
+.WishlistHeader {
+  padding: 1em;  
+  background-color: black;
+  color: white;
+  font-size: large;
+  text-align: center;
+}
+
+.WishlistCard {
+  margin: 2em;  
+  max-width: 20%;  
+  padding: 0 25px;
+  height: 150px;
+  font-size: 16px;
+  line-height: 50px;
+  border-radius: 25px;
+  background-color: #f1f1f1;
+}
+
+.WishlistCard .RemoveButton h5 {
+    background-color: red;
+    color: white;
+    border-radius: 50px;
+    text-align: center;
+    max-height: 50px;
+    max-width: 150px;
+    margin: 2px;
+    cursor: pointer;
+}
+
+.WishlistCard .RemoveButton h5:hover {
+    background-color: gray;
+    color: white;
+}
+
+.WishlistCard img {
+    float: left;
+  margin: 0 10px 0 -25px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
